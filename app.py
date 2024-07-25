@@ -64,6 +64,8 @@ def main():
 		
 
 
+	st.write("Working Directory:", os.getcwd())
+
 
 if __name__ == '__main__':
 	main()

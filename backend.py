@@ -4,12 +4,10 @@ import pandas as pd
 from urllib.request import urlopen
 import json
 
-def say_hello():
-	return "hello there"
 
 
 def load_data():
-	path = "../data/clean/water_usage.csv"
+	path = "data/clean/water_usage.csv"
 	df = pd.read_csv(path, dtype={"fips": str, "year": str})
 	return df
 
