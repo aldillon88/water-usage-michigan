@@ -1,0 +1,2 @@
+[console_scripts]
+addfips = addfips.__main__:main
