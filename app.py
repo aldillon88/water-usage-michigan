@@ -51,20 +51,17 @@ def main():
 		left.write("This choropleth plot shows the water usage by county based on the filters on the left.")
 		left.write("Water usage for Irrigation and Livestock appears to be higher in the southwest of the state, which goes against the assumption made above.")
 		left.write("Water usage for Electric Power Generation, the main consumer of water in Michigan, is also highest in the south of the state, mainly in the southwest and southeast, particularly around the populus Detroit area.")
-		left.write("While comparatively low vs. other industries, water usage in the Commercial-Institutional industry is also at its highest in the south of the state, wit a couple of significant outliers in the north, in the counties of Iron and Charlevoix.")
+		left.write("While comparatively low vs. other industries, water usage in the Commercial-Institutional industry is also at its highest in the south of the state, with a couple of significant outliers in the north, in the counties of Iron and Charlevoix.")
 		right.write(plot_choropleth_chart(data, industry=industry, year=year))
 
 
 	if mode == "Over Time":
 		st.subheader("Water usage by source over time", divider=True)
 		left, right = st.columns([0.3, 0.7], gap="large", vertical_alignment="center")
-		left.write("In this chart we can see the water usage over time across all three recorded water sources - The Great Lakes, Groundwater and Inland Surface Water. Using the filter on left left, we can drill down by industry and country to get a better understanding of their respective trends from 2013 to 2022.")
+		left.write("In this chart we can see the water usage over time across all three recorded water sources - The Great Lakes, Groundwater and Inland Surface Water. Using the filters on the left, we can drill down by industry and country to get a better understanding of their respective trends from 2013 to 2022.")
 		left.write("Electric Power Generation, the biggest water consumer, appears to be trending slightly downwards during this period of time. This is likely due to a shift to renewable energy and less water intensive energy sources, such as natural gas.")
 		right.write(plot_line_chart(melted, industry=industry, county=county))
 		
-
-
-	st.write("Working Directory:", os.getcwd())
 
 
 if __name__ == '__main__':

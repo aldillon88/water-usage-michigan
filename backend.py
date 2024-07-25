@@ -45,6 +45,7 @@ def plot_pie_chart(data, values, names, industry=None, county=None, year=None):
 	return fig
 
 
+@st.cache_data
 def plot_choropleth_chart(data, industry=None, year=None):
 
 	with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
