@@ -5,17 +5,16 @@ This project is an analysis of water usage in the state of Michigan from 2013 to
 
 #### Environment and packages
 ##### Python Interpreter
-Python 3.9.6
+- Python 3.9.6
 ##### Main Packages Used
-matplotlib-inline==0.1.7
-notebook==7.2.1
-numpy==2.0.1
-pandas==2.2.2
-pip-tools==7.4.1
-plotly==5.23.0
-streamlit==1.36.0
+- matplotlib-inline==0.1.7
+- notebook==7.2.1
+- numpy==2.0.1
+- pandas==2.2.2
+- pip-tools==7.4.1
+- plotly==5.23.0
+- streamlit==1.36.0
 
-#### Installation
 #### Installation
 1. Clone this repository:
 	1. `git clone https://github.com/aldillon88/water-usage-michigan.git`.
