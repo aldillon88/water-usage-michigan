@@ -1,7 +1,7 @@
 # Water Usage Michigan
 
 #### Introduction
-This project is an analysis of water usage in the state of Michigan from 2013 to 2022. Further information on the data source can be found on Kaggle, where the data files were sourced: [Kaggle](https://www.kaggle.com/datasets/oleksiimartusiuk/michigan-water-use-data-2013-to-2022)
+This project is an analysis of water usage in the state of Michigan from 2013 to 2022. Further information on the data can be found on Kaggle, where the data files were sourced: [Kaggle](https://www.kaggle.com/datasets/oleksiimartusiuk/michigan-water-use-data-2013-to-2022)
 
 #### Environment and packages
 ##### Python Interpreter
